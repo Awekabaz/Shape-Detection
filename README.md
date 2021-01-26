@@ -7,4 +7,4 @@ It detects the shape of the object up to 12(can be tuned) corners, whatever larg
 
 ![scr2](/Resources/scr2.png)
 
-![scr3](/Resources/scr3.png))
+![scr3](/Resources/scr3.png)
