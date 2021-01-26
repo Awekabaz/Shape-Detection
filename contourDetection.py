@@ -48,7 +48,7 @@ def getCon(image):
                 if ratio >=0.9 and ratio <= 1.04:
                     type = 'square'
                 else:   type = "rectangle"
-            elif shape > 15: type = 'circle'
+            elif shape > 12: type = 'circle'
             else: type = str(shape)
             cv2.rectangle(imgJi, (x-20,y-20), (x+width+15, y+height+15), (255,0,0), 3)
             cv2.putText(imgJi, type,
